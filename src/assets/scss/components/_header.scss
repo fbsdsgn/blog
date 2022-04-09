@@ -1,0 +1,41 @@
+// HEADER
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 24px;
+  }
+
+  &__link {
+    color: $white-light;
+    display: inline-block;
+    padding: 8px 16px;
+
+    transition: 0.5s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__input {
+    min-width: 300px;
+    height: 48px;
+    background-color: $black-dark;
+    border-radius: 4px;
+    color: $white-light;
+    padding: 8px 16px;
+  }
+}

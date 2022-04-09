@@ -1,14 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "./config/colors";
+@import "./config/typography";
 
-@import "./colors";
-@import "./typography";
-
-body {
-  background-color: #050607;
-}
-
-@import "./layout";
+@import "./base/base";
+@import "./layout/layout";
+@import "./components/header"
